@@ -1,6 +1,6 @@
 require 'rails_helper.rb'
 
-feature 'Creating posts' do
+feature 'user makes posts' do
   scenario 'can create a post' do
     visit '/'
     click_link 'New Post'
